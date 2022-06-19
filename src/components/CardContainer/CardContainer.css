@@ -1,0 +1,12 @@
+.card-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.left,
+.right {
+    margin: 5%;
+    height: 50vh;
+}

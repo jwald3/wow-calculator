@@ -1,0 +1,52 @@
+:root {
+    --oxford-blue: #080c24ff;
+    --oxford-blue-2: #151e34ff;
+    --blue-crayola: #3071e8ff;
+    --white: #ffffffff;
+    --maximum-blue-purple: #a6b2ebff;
+    --celadon-blue: #1f7ea7ff;
+}
+
+.card {
+    height: 100%;
+    width: 30vw;
+    padding: 5%;
+    border: 1px solid black;
+    border-radius: 3%;
+    font-size: 2vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--oxford-blue);
+}
+
+.item-title {
+    background-color: var(--oxford-blue-2);
+    width: 80%;
+    height: 5%;
+    font-size: 2vmin;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    color: #fff;
+}
+
+.stat-row {
+    margin-bottom: 5%;
+    height: 5%;
+    color: #fff;
+}
+
+.stat-row input {
+    float: right;
+    height: 100%;
+    background-color: var(--oxford-blue-2);
+    color: #fff;
+}
+
+.total {
+    margin-top: 10%;
+    color: #fff;
+}
